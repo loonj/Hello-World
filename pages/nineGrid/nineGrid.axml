@@ -1,0 +1,10 @@
+
+  <view class="grids">
+    <view class="item" a:for="{{goods}}" a:key="*this">
+      <image mode="scaleToFill" src="{{item.img_url}}"/>
+      <text>{{item.shortName}}</text>
+      <view class="price">
+        ￥{{item.price}}
+      </view>
+    </view>
+  </view>

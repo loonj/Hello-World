@@ -1,0 +1,33 @@
+<view class="container">
+
+  <view class="avatar">
+    <image class="avatar" mode="scaleToFill" src="{{user.avatar || '../../assets/logo.png'}}" background-size="cover">
+    </image>
+    <text>{{user.nickName}}</text>
+  </view>
+
+
+  <view class="info">
+   <view class="section">
+      <text>性别</text>
+      <text>男</text>
+    </view>
+    <view class="section">
+      <text>城市</text>
+      <text>深圳市</text>
+    </view>
+    <view class="section">
+      <text>省</text>
+      <text>广东省</text>
+    </view>
+    <view class="section">
+      <text>国家</text>
+      <text>中国</text>
+    </view>
+    <view class="section">
+      <text>语言</text>
+      <text>中文</text>
+    </view>
+  </view>
+
+</view>

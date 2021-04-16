@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/techNews/techNews",
+    "pages/personal/personal",
+    "pages/nineGrid/nineGrid",
+    "pages/index/index",
+    "pages/addTodo/addTodo"
+    
+  ],
+  "window": {
+    "defaultTitle": "我的任务",
+    "titleBarColor": "#323239"
+  }
+}

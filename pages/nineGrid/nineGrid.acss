@@ -1,0 +1,40 @@
+
+.grids {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  border-top: 1rpx solid #eee;
+  border-left: 1rpx solid #eee;
+  background-color: #fff;
+}
+
+.grids .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.3333333333%;
+  height: 230rpx;
+  border-right: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+  box-sizing: border-box;
+}
+
+.grids .item image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.grids .item text {
+  margin-top: 10rpx;
+  color: #999;
+  font-size: 28rpx;
+}
+
+ .grids .item .price {
+  font-size: 28rpx;
+  color: #ff6700;
+  padding-top:15rpx;
+}

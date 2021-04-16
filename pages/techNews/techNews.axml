@@ -1,0 +1,9 @@
+  <view class="grids">
+    <view class="item" a:for="{{news}}" a:key="*this">
+      <image mode="scaleToFill" src="{{item.thumbnailPicS}}"/>
+      <text>{{item.shortTitle}}</text>
+      <view class="price">
+        {{item.category}}
+      </view>
+    </view>
+  </view>
