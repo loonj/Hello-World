@@ -8,6 +8,7 @@ Page({
 
   onLoad(){
     this.getNewsThree();
+    this.postLoginTest();
   },
 
   //第一种写法获取新闻接口数据
@@ -63,5 +64,15 @@ Page({
        err=>console.log(err)
     );
     console.log("获取新闻接口结束");
+  },
+
+  async postLoginTest(){
+    const params={
+      name:'800012',
+      pwd:'e10adc3949ba59abbe56e057f20f883e'
+    };
+    await api.postData('https://m.aolix.cn/ticket/public/login',params,null).then(
+      res=>console.log(res.data)
+    ).catch(err=>console.log(err));
   },
 })
